@@ -1,0 +1,24 @@
+# 运行时数据（勿提交登录态/缓存）
+profiles/
+抓取结果/
+imgs/
+*.xlsx
+!~$*.xlsx
+
+# Python / 打包产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+*.spec.bak
+
+# 测试与日志
+gui_app/
+.minicursor_uploads/
+test_out/
+*.log
+.DS_Store
+Thumbs.db
